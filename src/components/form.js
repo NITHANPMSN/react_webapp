@@ -30,6 +30,7 @@ export default class form extends Component {
     return (
       <div>
         <form id="myform" onSubmit={this.submit}>
+          <h2>signup</h2>
           <br />
           <input
             className="box"
